@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML e CSS - Desafio 3</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header id="nav-container">
+      <nav id="nav-main">
+        <h1><a id="nav-brand" href="">DSPlayGames</a></h1>
+        <div id="nav-menu">
+          <ul id="nav-itens">
+            <li><a href="#news">Notícias</a></li>
+            <li><a href="#games">Jogos</a></li>
+            <li><a href="#subscribe">Inscreva-se</a></li>
+          </ul>
+          <a id="nav-icon" href="#user"
+            ><img src="img/user.png" alt="user-thumbnail"
+          /></a>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section id="news">
+        <h2>Últimas notícias</h2>
+        <div class="news-bloc">
+          <h3>Título principal da notícia</h3>
+          <h4>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto
+            vitae ducimus aperiam.
+          </h4>
+          <div class="line"></div>
+          <h5>23/02/2022</h5>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto
+            vitae ducimus aperiam. Harum, in dicta? Perspiciatis nam, facilis
+            nesciunt, expedita esse labore officiis ut ipsam voluptates aperiam
+            laboriosam sequi! Expedita vitae iste quae veniam molestiae ea ad
+            alias maiores. Numquam dolor eaque recusandae eius nihil quibusdam
+            esse nisi asperiores in nulla dicta distinctio aliquid ullam
+            aspernatur ad amet fugit dolorem sapiente veritatis quo, rem a.
+            Molestiae qui sed enim! Laborum doloribus nisi quia dolore obcaecati
+            reiciendis quae, numquam consectetur sed animi temporibus inventore
+            nemo. Asperiores fugit rerum, placeat quas in nobis obcaecati
+            similique quae assumenda culpa ab sit voluptatum molestiae
+            voluptates facilis optio recusandae tempore nihil atque et nesciunt
+            nemo perferendis adipisci harum. Corrupti eum autem veritatis et
+            beatae reiciendis, deleniti corporis, voluptas, eaque ipsa nemo
+            odio? Eligendi sapiente id enim quibusdam, repudiandae optio error!
+            Vitae perspiciatis voluptatem sequi nostrum necessitatibus culpa
+            fuga ...
+          </p>
+          <h6>Ler mais...</h6>
+        </div>
+        <div class="news-bloc">
+          <h3>Título principal da notícia</h3>
+          <h4>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto
+            vitae ducimus aperiam.
+          </h4>
+          <div class="line"></div>
+          <h5>23/02/2022</h5>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto
+            vitae ducimus aperiam. Harum, in dicta? Perspiciatis nam, facilis
+            nesciunt, expedita esse labore officiis ut ipsam voluptates aperiam
+            laboriosam sequi! Expedita vitae iste quae veniam molestiae ea ad
+            alias maiores. Numquam dolor eaque recusandae eius nihil quibusdam
+            esse nisi asperiores in nulla dicta distinctio aliquid ullam
+            aspernatur ad amet fugit dolorem sapiente veritatis quo, rem a.
+            Molestiae qui sed enim! Laborum doloribus nisi quia dolore obcaecati
+            reiciendis quae, numquam consectetur sed animi temporibus inventore
+            nemo. Asperiores fugit rerum, placeat quas in nobis obcaecati
+            similique quae assumenda culpa ab sit voluptatum molestiae
+            voluptates facilis optio recusandae tempore nihil atque et nesciunt
+            nemo perferendis adipisci harum. Corrupti eum autem veritatis et
+            beatae reiciendis, deleniti corporis, voluptas, eaque ipsa nemo
+            odio? Eligendi sapiente id enim quibusdam, repudiandae optio error!
+            Vitae perspiciatis voluptatem sequi nostrum necessitatibus culpa
+            fuga ...
+          </p>
+          <h6>Ler mais...</h6>
+        </div>
+        <button type="button">Carregar mais</button>
+      </section>
+      <section id="games">
+        <h2>Jogos</h2>
+        <div id="game-blocs-group">
+          <div class="game-bloc">
+            <img src="img/game.png" alt="Horizon Fobidden West" />
+            <h3>Horizon Forbidden West</h3>
+            <p class="developer">
+              <span>De</span> Sony Interactive Entertainment
+            </p>
+            <p class="rating">9.7</p>
+          </div>
+          <div class="game-bloc">
+            <img src="img/game.png" alt="Horizon Fobidden West" />
+            <h3>Horizon Forbidden West</h3>
+            <p class="developer"><span>De</span> Sony Interactive Entertainment</p>
+            <p class="rating">9.7</p>
+          </div>
+          <div class="game-bloc">
+            <img src="img/game.png" alt="Horizon Fobidden West" />
+            <h3>Horizon Forbidden West</h3>
+            <p class="developer"><span>De</span> Sony Interactive Entertainment</p>
+            <p class="rating">9.7</p>
+          </div>
+        </div>
+      </section>
+      <section id="subscribe">
+        <h2>Faça a sua inscrição</h2>
+        <form id="form">
+          <div class="input-data">
+            <label for="ctrl-name"></label>
+            <input
+              id="ctrl-name"
+              name="name"
+              type="text"
+              placeholder="Nome Completo"
+            />
+          </div>
+          <div class="input-data">
+            <label for="ctrl-email"></label>
+            <input
+              id="ctrl-email"
+              name="email"
+              type="email"
+              placeholder="Email"
+            />
+          </div>
+          <div id="input-selection">
+            <label for="ctrl-plataform">Qual sua plataforma preferida?</label>
+            <div class="plataform-option">
+              <input type="radio" name="plataform" id="ctrl-plataform-1" />
+              <label for="ctrl-plataform-1">PC</label>
+            </div>
+            <div class="plataform-option">
+              <input type="radio" name="plataform" id="ctrl-plataform-2" />
+              <label for="ctrl-plataform-2">Xbox</label>
+            </div>
+            <div class="plataform-option">
+              <input type="radio" name="plataform" id="ctrl-plataform-3" />
+              <label for="ctrl-plataform-3">Playstation</label> 
+            </div>   
+          </div>
+          <div id="input-subscribe-news">
+            <input id="ctrl-languages-java" name="language1" type="checkbox" />
+            <label for="ctrl-languages-java">Desejo receber novidades.</label>
+          </div>
+          <div id="subscribe-buttons">
+            <input id="submit" type="submit" value="Enviar" />
+            <input id="reset" type="reset" value="Limpar" />
+          </div>
+        </form>
+      </section>
+    </main>
+    <footer id="footer">
+      <div id="footer-group-1">
+        <p>@dsplaygames</p>
+        <p>/dsplaygames</p>
+      </div>
+      <div id="footer-group-2">
+        <p>Ds Play Games. Todos direitos reservados</p>
+      </div>
+      <div id="footer-group-3">
+        <p>Política de privacidade</p>
+        <p>Termos de uso</p>
+      </div>
+    </footer>
+  </body>
+</html>
